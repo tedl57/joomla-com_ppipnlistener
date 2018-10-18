@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+   <update>
+      <name>PayPal IPN Listener</name>
+      <description>PayPal IPN Listener Component</description>
+      <element>com_ppipnlistener</element>
+      <type>component</type>
+      <version>1.0.0</version>
+	  <infourl title="PayPal IPN Listener URL">http://creativespirits.org/products/joomla/com_ppipnlistener-release-notes.html</infourl>
+      <downloads>
+		  <downloadurl type="full" format="zip">http://creativespirits.org/products/joomla/com_ppipnlistener-1.0.0.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>some-tag</tag>
+      </tags>
+      <maintainer>Creative Spirits</maintainer>
+      <maintainerurl>http://creativespirits.org</maintainerurl>
+      <section>some-section</section>
+      <targetplatform name="joomla" version="3.[012345678]" />
+   </update>
+</updates>
