@@ -106,7 +106,7 @@ class PpipnlistenerModelLogs extends JModelList
                         )
                 );
 
-            $query->from('`#__ppipnlistener_log` AS a');
+            $query->from('`#__cs_ppipnlistener_log` AS a');
             
             
 

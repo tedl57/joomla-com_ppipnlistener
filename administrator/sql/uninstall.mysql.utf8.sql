@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS `#__ppipnlistener_log`;
+--DROP TABLE IF EXISTS `#__cs_ppipnlistener_log`;

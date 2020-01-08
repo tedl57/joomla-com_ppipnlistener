@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="3.0" method="upgrade">
     <name>com_ppipnlistener</name>
-    <creationDate>2018-10-18</creationDate>
-    <copyright>2018 Creative Spirits</copyright>
+    <creationDate>2020-01-08</creationDate>
+    <copyright>2020 Creative Spirits</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <author>Ted Lowe</author>
     <authorEmail>lists@creativespirits.org</authorEmail>
-    <authorUrl>http://www.creativespirits.org</authorUrl>
-    <version>1.0.0</version>
+    <authorUrl>https://www.creativespirits.org</authorUrl>
+    <version>1.0.2</version>
     <description>Listen for PayPal IPN messages and respond.</description>
-    
-    
-    
     <install> <!-- Runs on install -->
         <sql>
             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
@@ -43,7 +40,6 @@
         <folder>css</folder>
     </media>
     <languages folder="site/languages">
-        
 			<language tag="en-GB">en-GB/en-GB.com_ppipnlistener.ini</language>
     </languages>
     <administration>
@@ -82,7 +78,7 @@
         <plugin group="search" plugin="ppipnlistener"/>
     </plugins>
 	<updateservers>
-   		<server type="extension" priority="1" name="com_ppipnlistener">http://creativespirits.org/products/joomla/com_ppipnlistener-update.xml</server>
+   		<server type="extension" priority="1" name="com_ppipnlistener">https://creativespirits.org/products/joomla/com_ppipnlistener-update.xml</server>
 	</updateservers>    
 </extension>
 <!-- Component built by the Joomla Component Creator -->

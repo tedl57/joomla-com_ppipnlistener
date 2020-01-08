@@ -59,3 +59,4 @@ class JFormFieldCreatedby extends JFormField
 		return implode($html);
 	}
 }
+?>
